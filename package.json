@@ -1,0 +1,24 @@
+{
+  "name": "rit-tk-tauriediton",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "vdev": "vite",
+    "vbuild": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "icon": "tauri icon"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@tauri-apps/api": "^1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.0.0",
+    "@tauri-apps/cli": "^1"
+  }
+}
